@@ -46,15 +46,13 @@ python etl_pipeline.py
 The pipeline currently simulates API data and outputs to CSV by default, but you can easily enable PostgreSQL and Snowflake by uncommenting and configuring the connection parameters!
 
 
-
-"""
 ETL Pipeline Project
 ====================
 Extract, Transform, Load pipeline using Python, PyTorch, PostgreSQL, and Snowflake
 
 Requirements:
 pip install pandas numpy torch psycopg2-binary snowflake-connector-python sqlalchemy python-dotenv
-"""
+
 Best practices:
 
 1. Architecture & Design PatternsModular Pipeline Architecture
@@ -323,5 +321,6 @@ Validate early and often: Catch issues at extraction
 Document assumptions: Future you will thank present you
 Batch wisely: Balance throughput and memory
 Version everything: Code, models, schemas, config
+
 
 
