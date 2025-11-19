@@ -279,7 +279,7 @@ markdown- Architecture diagrams
 - Recovery procedures
 ```
 
-## 12. Example Project Structure
+# 12. Example Project Structure
 ```
 etl-pipeline/
 ├── config/
@@ -321,6 +321,7 @@ Validate early and often: Catch issues at extraction
 Document assumptions: Future you will thank present you
 Batch wisely: Balance throughput and memory
 Version everything: Code, models, schemas, config
+
 
 
 
